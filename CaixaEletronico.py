@@ -43,7 +43,7 @@ while True:
         while continuar == 1:
             input("\033[1;37;40m [ENTER]")
             print("\033c")
-            print("""O que vc deseja fazer::
+            opcao = input("""O que vc deseja fazer::
             [ 1 ]Ver Saldo da conta
             [ 2 ]Depositar na conta
             [ 3 ]Retirar da conta
